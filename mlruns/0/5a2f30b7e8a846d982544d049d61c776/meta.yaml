@@ -1,0 +1,15 @@
+artifact_uri: file:///home/antoniosf/code/uda_MLDevOps/MLOps_projects/3%3ABuilding%20a%20Reproducible%20Model%20Workflow/lessons-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/mlruns/0/5a2f30b7e8a846d982544d049d61c776/artifacts
+end_time: 1635445620394
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 5a2f30b7e8a846d982544d049d61c776
+run_uuid: 5a2f30b7e8a846d982544d049d61c776
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1635445604912
+status: 3
+tags: []
+user_id: antoniosf
