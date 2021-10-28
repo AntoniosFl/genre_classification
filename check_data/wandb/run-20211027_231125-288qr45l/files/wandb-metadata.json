@@ -1,0 +1,33 @@
+{
+    "os": "Linux-5.11.0-38-generic-x86_64-with-glibc2.31",
+    "python": "3.9.7",
+    "heartbeatAt": "2021-10-27T21:11:27.444557",
+    "startedAt": "2021-10-27T21:11:25.821430",
+    "docker": null,
+    "gpu": "GeForce GTX 1660 Ti",
+    "gpu_count": 1,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [
+        "-s",
+        "-vv",
+        ".",
+        "--reference_artifact",
+        "exercise_14/preprocessed_data.csv:latest",
+        "--sample_artifact",
+        "preprocessed_data.csv:latest",
+        "--ks_alpha",
+        "0.05"
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/AntoniosFl/my_code_projects.git",
+        "commit": "dd8232a028d762305a286a78a3fe3ade9710352b"
+    },
+    "email": "afledos@hotmail.com",
+    "root": "/home/antoniosf/code/uda_MLDevOps/MLOps_projects",
+    "host": "AntoniosUbuntu",
+    "username": "antoniosf",
+    "executable": "/home/antoniosf/miniconda3/envs/mlflow-7398531e5288219e428182dc4d6601ae57991d39/bin/python"
+}

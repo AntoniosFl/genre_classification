@@ -1,0 +1,37 @@
+{
+    "os": "Linux-5.11.0-38-generic-x86_64-with-glibc2.10",
+    "python": "3.8.12",
+    "heartbeatAt": "2021-10-27T21:11:58.707595",
+    "startedAt": "2021-10-27T21:11:57.302974",
+    "docker": null,
+    "gpu": "GeForce GTX 1660 Ti",
+    "gpu_count": 1,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [
+        "--train_data",
+        "data_train.csv:latest",
+        "--model_config",
+        "/home/antoniosf/code/uda_MLDevOps/MLOps_projects/3:Building a Reproducible Model Workflow/lessons-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/outputs/2021-10-27/23-11-03/random_forest_config.yml",
+        "--export_artifact",
+        "model_export",
+        "--random_seed",
+        "42",
+        "--val_size",
+        "0.3",
+        "--stratify",
+        "genre"
+    ],
+    "state": "running",
+    "program": "run.py",
+    "codePath": "3:Building a Reproducible Model Workflow/lessons-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/random_forest/run.py",
+    "git": {
+        "remote": "https://github.com/AntoniosFl/my_code_projects.git",
+        "commit": "dd8232a028d762305a286a78a3fe3ade9710352b"
+    },
+    "email": "afledos@hotmail.com",
+    "root": "/home/antoniosf/code/uda_MLDevOps/MLOps_projects",
+    "host": "AntoniosUbuntu",
+    "username": "antoniosf",
+    "executable": "/home/antoniosf/miniconda3/envs/mlflow-259d53ab44a1e9011b0c64ae862f43343c0fc9e5/bin/python"
+}
