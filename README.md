@@ -1,2 +1,2 @@
-# genre_classification
-Exercise 14 of MLOps
+# Genre Classification
+This is the exercise No.14 from MLOps
